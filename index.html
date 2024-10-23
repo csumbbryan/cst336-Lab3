@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sign Up Page </title>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity=
+  "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="header">
+    <h1> Sign Up for B's Newsletter!</h1>
+  </div>
+  <div class="spinner-border text-primary" 
+    id="spinner" role="status">
+  </div>
+  <div id="generalError">
+  </div>
+    <form id="signupForm" action="welcome.html">
+      
+      <!--One Row-->
+      <div class="firstSection">
+        <div class="firstC">
+          First Name: <input type="text" name="fName" id="fName" size=10>
+        </div>
+        <div class="firstC">
+          Last Name: <input type="text" name="lName" id="lName" size=10>
+        </div>
+      
+        <div class="firstC">
+          Gender:     
+            <input type="radio" name="gender" value="m" id="genderM">Male
+            <input type="radio" name="gender" value="f" id="genderF">Female	
+        </div>
+      </div>      
+      <!--Second Section--> 
+      <div class="secondSection">
+        
+        <div class="secondC1">
+          <!--one column-->
+          <div class="sZip">
+          Zip Code:  <input type="text" id="zip" name="zip">
+            <span id = "zipError"></span> </div>
+          <div class="sCity">
+          City:   <span id="city" class="text"></span></div>
+          <div class="sLatitude">
+          Latitude:  <span id="latitude" class="text"></span></div>
+          <div class="sLongitude">
+          Longitude:  <span id="longitude" class="text"></span></div>
+        </div>
+      <!--second column-->
+        <div class="secondC2">
+          <div class="sState">
+          State: 
+          <select id="state" name="state">
+            <option>Select One</option>
+            <option value="ca">California</option>
+            <option value="ny">New York</option>
+            <option value="tx">Texas</option>
+          </select> </div>
+          <div class="sCounty">
+          Select a County: <select id="county"></select></div>
+        </div>
+      </div>
+      <!--Third Section-->
+      <div class="thirdSection">
+        <div class="thirdC1">
+          Desired Username: 
+          <input type="text" id="username" name="username" size=10>
+          <span id="usernameError"></span>
+        </div>
+        <div class="thirdC2">
+          Password: 
+          <input type="password" id="password" name="password" size=10><span id="passwordError"></span>
+        </div>
+        <div class="thirdC3">
+
+          Type Password Again: 
+          <input type="password" id="password2" name="password2" size=10>
+        </div>
+      </div>
+      <div class="submitSection">
+        <input type="submit" value="Sign up!" id="submitForm">
+      </div>
+    </form>
+  <script src="js/script.js"></script>
+</body>
+</html>

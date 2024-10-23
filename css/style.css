@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 1.0em;
+}
+
+div.header {
+  width: 80%;
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive;
+  background-color: #008cba;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+div.firstSection {
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  border-top: 2px dotted black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+div.firstC {
+  padding: 4px;
+}
+
+div.secondSection {
+  display: flex;
+  flex-direction: row ;
+  justify-content: left;
+  width: 80%;
+  border-top: 2px dotted black;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+div.secondC1 {
+  padding: 4px;
+
+}
+
+div.sZip {
+  padding-bottom: 4px;
+}
+
+div.sCity {
+  padding-left: 8px;
+  padding-bottom: 2px;
+}
+
+div.sLatitude {
+  padding-left: 8px;
+  padding-bottom: 2px;
+}
+
+div.sLongitude {
+  padding-left: 8px;
+}
+
+div.secondC2 {
+  padding: 4px;
+  padding-left: 8px;
+}
+
+div.sState {
+  padding-bottom: 4px;
+}
+
+div.sCounty {
+  padding-left: 8px;
+}
+
+div.thirdSection {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 10px;
+  border-top: 2px dotted black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+div.thirdC1 {
+  padding: 4px;
+}
+
+div.thirdC2 {
+  padding: 4px;
+  padding-top: 8px;
+}
+
+div.thirdC3 {
+  padding: 4px;
+}
+
+div.submitSection {
+  padding: 4px;
+}
+
+#submitForm {
+  font-size: 1.4em;
+  color: white;
+  background-color: darkgreen;
+}
+
+#submitForm:hover {
+  font-size: 1.6em;
+  transition: .7s;
+}
+
+#submitForm:active {
+  font-size: 1.3em;
+  background-color: #104510;
+  transition: .2s;
+}
+
+#newbtn {
+  font-size: 1.4em;
+  color: black;
+  background-color: #f2f2f2;
+}
+
+input[type=text] {
+  font-size: inherit;
+  font-style: inherit;
+  color: #10519e;
+}
+
+select {
+  font-size: inherit;
+  font-style: inherit;
+  color: #10519e;
+}
+
+span.text {
+  color: #10519e;
+}
+
+#spinner {
+  display: none; 
+}
